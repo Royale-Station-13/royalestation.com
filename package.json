@@ -1,5 +1,5 @@
 {
-  "name": "royalestation.com",
+  "name": "royalestation13.com",
   "private": true,
   "description": "Website for Royale Station",
   "version": "1.0.0",
@@ -52,10 +52,10 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "repository": "https://github.com/RoyaleStation/royalestation.com",
+  "repository": "https://github.com/RoyaleStation/royalestation13.com",
   "bugs": {
-    "url": "https://github.com/RoyaleStation/royalestation.com/issues"
+    "url": "https://github.com/RoyaleStation/royalestation13.com/issues"
   },
-  "homepage": "https://royalestation.com/",
+  "homepage": "https://royalestation13.com/",
   "main": "index.js"
 }
