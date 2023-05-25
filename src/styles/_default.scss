@@ -1,3 +1,5 @@
+@use "sass:color";
+
 @font-face {
   font-family: "Aldo the Apache";
   src: url(/fonts/AldotheApache.woff2) format("woff2");
@@ -10,4 +12,18 @@ a {
   &:hover {
     color: $link-color-hover;
   }
+}
+
+html {
+  background: linear-gradient(
+    $primary-background,
+    color.scale($primary-background, $lightness: 3%)
+  );
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body {
+  background-color: transparent;
 }
