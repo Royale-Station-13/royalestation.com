@@ -5,27 +5,15 @@
     width: 100%;
     line-height: 100px;
   }
-  .description {
-    font-family: "Aldo the Apache", Arial, sans-serif;
-    margin-top: 20px;
-    text-align: center;
-    width: 100%;
-    font-size: 2rem;
-    .sub-desc {
-      display: inline-block;
-      &.smaller {
-        font-size: 1.9rem;
-      }
-    }
-  }
   .links {
     margin-top: 50px;
     text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     .link-button {
-      margin: 0 5px;
+      margin: 5px 5px;
     }
   }
 }

@@ -10,3 +10,21 @@
   text-shadow: 0 0 5px black;
   white-space: nowrap;
 }
+
+@media only screen and (max-width: 500px) {
+  .logo-text {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 405px) {
+  .logo-text {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .logo-text {
+    font-size: 2.5rem;
+  }
+}

@@ -1,5 +1,5 @@
 import SEO from "../components/seo"
-import { FaDiscord, FaGithub } from "react-icons/fa"
+import { FaDiscord, FaGithub, FaPatreon } from "react-icons/fa"
 import { GatsbyLinkButton, LinkButton } from "../components/linkbutton"
 import Logo from "../components/logo"
 
@@ -11,25 +11,37 @@ const IndexPage = () => {
           <Logo />
         </section>
         <section className="description">
-          <span className="sub-desc">
+          <span className="desc-text">
             A Space Station 13 Battle Royale server
           </span>
           <br />
-          <span className="sub-desc smaller">Only one player survives!</span>
+          <span className="desc-text smaller">Only one player survives!</span>
         </section>
         <section className="links">
           <GatsbyLinkButton to="/about">About</GatsbyLinkButton>
           <GatsbyLinkButton to="/rules">Rules</GatsbyLinkButton>
         </section>
         <section className="links">
-          <LinkButton href="https://discord.gg/m5wTK9fxa3" blank>
+          <LinkButton
+            color="blurple"
+            href="https://discord.gg/m5wTK9fxa3"
+            blank
+          >
             <FaDiscord /> Discord
           </LinkButton>
           <LinkButton
+            color="black"
             href="https://github.com/Royale-Station-13/Royale-Station-13"
             blank
           >
             <FaGithub /> GitHub
+          </LinkButton>
+          <LinkButton
+            color="orange"
+            href="https://patreon.com/RoyaleStation13"
+            blank
+          >
+            <FaPatreon /> Patreon
           </LinkButton>
         </section>
         <section className="links">
