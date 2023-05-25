@@ -28,7 +28,7 @@ Avoid starting political discussions, and change the topic if staff directs it.
 
 This server requires players to be at least 18 years old. While we will make no efforts to screen users, if it becomes obvious you are not 18 at any point you will be banned.
 
-## 6 Avoid Exposing Active Players in OOC
+## 6 Don't Expose Active Players in OOC
 
 Feel free to discuss current rounds, but avoid explicitly selling out people still actively participating in the round or you may find yourself muted.
 
