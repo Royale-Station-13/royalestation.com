@@ -1,0 +1,14 @@
+@import "variables";
+@import "bootstrap-mappings";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "default";
+
+// Page styles
+@import "pages/index";
+@import "pages/about";
+@import "pages/rules";
+
+// Component styles
+@import "components/linkbutton";
+@import "components/logo";

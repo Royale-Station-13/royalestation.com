@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Aldo the Apache";
+  src: url(/fonts/AldotheApache.woff2) format("woff2");
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  transition: color 0.1s;
+  &:hover {
+    color: $link-color-hover;
+  }
+}

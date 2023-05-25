@@ -1,0 +1,23 @@
+.link-button {
+  font-family: "Aldo the Apache", Arial, sans-serif;
+  font-size: 1.8rem;
+  padding-top: 4px;
+  padding-bottom: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: rgb(182, 0, 0);
+  border-radius: 2px;
+  border: 1px solid black;
+  box-shadow: 0 0 5px black;
+  transition: background-color 0.1s;
+  svg {
+    margin-left: -2px;
+  }
+  color: white !important;
+  &:hover {
+    background-color: rgb(207, 81, 81);
+  }
+  &.special {
+    font-size: 2rem;
+  }
+}
