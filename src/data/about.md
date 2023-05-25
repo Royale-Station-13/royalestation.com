@@ -15,6 +15,7 @@ Royale Station 13 is created and hosted by Rukofamicom.
 
 Currently, all staff are hand-picked and there is no application process.
 
+- Rukofamicom: Host
 - Itsmeowdev: Operator, Head Administrator
 - Bastian0930: Administrator
 - Liidero: Administrator
