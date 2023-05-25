@@ -6,6 +6,7 @@
   "author": "itsmeow",
   "dependencies": {
     "@babel/core": "^7.21.8",
+    "@loadable/component": "^5.15.3",
     "babel-preset": "^1.1.7",
     "bootstrap": "^5.2.3",
     "gatsby": "^5.10.0",
@@ -56,6 +57,5 @@
   "bugs": {
     "url": "https://github.com/RoyaleStation/royalestation13.com/issues"
   },
-  "homepage": "https://royalestation13.com/",
-  "main": "index.js"
+  "homepage": "https://royalestation13.com/"
 }

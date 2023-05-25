@@ -17,13 +17,13 @@ function SEO({ description, lang, keywords, title, image }) {
     `
   )
   const imageDef = image === "/" ? "" : image || icon
-  const metaTitle = title || site.siteMetadata.title
+  const metaTitle = `${title || site.siteMetadata.title}`
   const metaDescription = description || site.siteMetadata.description
 
   return (
     <>
       {lang && <html lang={lang} />}
-      {metaTitle && <title key="title">{metaTitle}</title>}
+      {metaTitle && <title>{metaTitle}</title>}
       {metaDescription && <meta name="description" content={metaDescription} />}
       {keywords.length && (
         <meta name="keywords" content={keywords.concat(",")} />

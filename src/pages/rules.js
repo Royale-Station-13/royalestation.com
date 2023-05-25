@@ -27,7 +27,7 @@ const IndexPage = () => {
         <section className="description">
           <span className="desc-text">SERVER RULES</span>
         </section>
-        <section className="rules">
+        <section className="text-section">
           <div style={{ textAlign: "center" }}>
             <GatsbyLinkButton to="/">Main Page</GatsbyLinkButton>
           </div>

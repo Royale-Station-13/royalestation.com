@@ -2,6 +2,7 @@ import SEO from "../components/seo"
 import { FaDiscord, FaGithub, FaPatreon } from "react-icons/fa"
 import { GatsbyLinkButton, LinkButton } from "../components/linkbutton"
 import Logo from "../components/logo"
+import PatreonBar from "../components/patreonbar"
 
 const IndexPage = () => {
   return (
@@ -51,6 +52,10 @@ const IndexPage = () => {
           >
             JOIN GAME
           </LinkButton>
+        </section>
+        <section className="text-section">
+          <h1>Funding Goal</h1>
+          <PatreonBar pid={10567200} />
         </section>
       </main>
     </>
