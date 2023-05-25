@@ -57,4 +57,4 @@ Plasmaflooding is significantly harder, as most sources of plasma are entirely d
 
 Players are allowed to select varying species for their characters, each with different advantages and disadvantages.
 
-For example, Skeletons are immune to atmospheric damage from space, but are more susceptible to brute damage and can only heal by drinking milk.
+For example, skeletons are immune to atmospheric damage from space, and can heal by drinking milk, but are heavily susceptible to brute damage.
